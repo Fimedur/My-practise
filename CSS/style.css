@@ -1,0 +1,14 @@
+.box{
+    width: 400px;
+    height: 200px;
+    border: 5px solid paleturquoise;
+    /* visibility: hidden; */
+    /* overflow: hidden; */
+    overflow: scroll;
+}
+.box2{
+    width: 400px;
+    height: 200px;
+    border: 5px solid peru;
+    overflow: scroll;
+}
