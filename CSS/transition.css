@@ -1,0 +1,19 @@
+.box{
+    text-align: center;
+    width: 110px;
+    height: 110px;
+    border: 5px solid cyan;
+    background-color: tomato;
+    transition: background-color 3s ease 1s;
+}
+.two{
+    transition: width 5s ease 1s;
+    transition-
+}
+.one:hover{
+    background-color: aqua
+}
+.two:hover{
+    width: 500px;
+}
+/* transition: <CSS proparty> <transition time> <transition mode> <transition dilay>; */

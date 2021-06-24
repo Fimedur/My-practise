@@ -1,0 +1,16 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid springgreen;
+}
+.outer{
+    background-color: steelblue;
+      
+}
+.inner{
+    background-color: tan;
+    transform: scale(.5) rotate(30deg) ;
+
+}
+
+/* milatipul tarnsform should write in one line otherwaise only the last transform will work :) */
