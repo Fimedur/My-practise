@@ -1,0 +1,32 @@
+.ball{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius:50%;
+    position: absolute;
+}
+.stage{
+    height: 200px;
+    background-color: lightcyan
+}
+@keyframes standline{
+    0% {
+        left: 0px;
+        top: 0px;
+        background-color: yellow;
+    }
+    50% {
+        left: 500px;
+        top:100px;
+        background-color: red;
+    }
+    100%{
+        left:1000px;
+        top: 0px;
+        background-color: yellow;
+        
+    }
+}
+.stage:hover .ball{
+   animation: standline 4s ease-in-out 0.2s infinite alternate;
+}
