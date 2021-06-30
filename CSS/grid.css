@@ -1,0 +1,14 @@
+.grid{
+    display:grid;
+    /* grid-template-columns: 100px 100px 150px; */
+    /* grid-template-columns: repeat(3, 100px); */
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+
+
+}
+
+
+.box{
+    border: 2px solid green;
+}
