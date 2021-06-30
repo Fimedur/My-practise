@@ -1,0 +1,19 @@
+.calender ul{
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1em;
+}
+.calender li{
+    display: flex;
+    justify-content: center;
+    /* Used for horizontal alignment */
+    align-items: center;
+    /* Used for vertical alignment  */
+    list-style: none;
+    font-size:4em;
+    background-color: aqua;
+    height: 125px;
+}
+.other-month{
+    background-color:lavender!important;
+}
