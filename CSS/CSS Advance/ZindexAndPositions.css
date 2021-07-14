@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    position: relative;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 5px;
+}
+.box-2{
+    /* position: absolute;
+    border: 1px solid blue;  
+    top: 50px; */
+    position: relative;
+    left: 50px;
+    /* top: -100px;  */
+    /* z-index: 2; */
+}
+.box-3{
+    border: 1px solid red;
+    z-index: 1;
+}
+.box-4{
+    position: absolute;
+    border: 1px solid blue;  
+    top: 50px;
+}
+
