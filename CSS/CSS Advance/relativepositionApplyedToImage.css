@@ -9,9 +9,15 @@
     border: 5px solid gold;
     border-radius:  10px;
     margin: 10px;
+    overflow: hidden;
+    /* overflow: hidden; is use to hide to  transform image overflow   */
 }
 .photo-farme .photo img{
    width:100%;    
+}
+.photo-farme:hover .photo img {
+  transform: scale(1.2) rotate(30deg) skew(30deg);
+  transition: transform 1s;
 }
 .photo-details{
     position:absolute;
